@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.9 on darwin)" generated="20220912 20:19:02.265" rpa="false" schemaversion="3">
+<suite id="s1" name="Test" source="/Users/aliisatas/PycharmProjects/ECommerceRobotFramework/tests/test.robot">
+<test id="s1-t1" name="AmazonWeb" line="12">
+<kw name="Direct to browser">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220912 20:19:02.368" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.com'.</msg>
+<msg timestamp="20220912 20:19:04.673" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220912 20:19:04.674" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 100
+Current browser version is 105.0.5195.102 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x0000000104877c34 chromedriver + 4406324
+1   chromedriver                        0x0000000104811290 chromedriver + 3986064
+2   chromedriver                        0x000000010447284c chromedriver + 190540
+3   chromedriver                        0x0000000104494200 chromedriver + 328192
+4   chromedriver                        0x0000000104490c48 chromedriver + 314440
+5   chromedriver                        0x000000010448dc30 chromedriver + 302128
+6   chromedriver                        0x00000001044bedb8 chromedriver + 503224
+7   chromedriver                        0x0000000104496864 chromedriver + 338020
+8   chromedriver                        0x000000010483d320 chromedriver + 4166432
+9   chromedriver                        0x0000000104852748 chromedriver + 4253512
+10  chromedriver                        0x0000000104856cbc chromedriver + 4271292
+11  chromedriver                        0x0000000104853004 chromedriver + 4255748
+12  chromedriver                        0x000000010483308c chromedriver + 4124812
+13  chromedriver                        0x000000010486abf8 chromedriver + 4353016
+14  chromedriver                        0x000000010486ad5c chromedriver + 4353372
+15  chromedriver                        0x000000010487e438 chromedriver + 4432952
+16  libsystem_pthread.dylib             0x00000001aeb1426c _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001aeb0f08c thread_start + 8
+</msg>
+<status status="FAIL" starttime="20220912 20:19:02.368" endtime="20220912 20:19:04.686"/>
+</kw>
+<status status="FAIL" starttime="20220912 20:19:02.367" endtime="20220912 20:19:04.687"/>
+</kw>
+<status status="FAIL" starttime="20220912 20:19:02.367" endtime="20220912 20:19:04.688">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 100
+Current browser version is 105.0.5195.102 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x0000000104877c34 chromedriver + 4406324
+1   chromedriver                        0x0000000104811290 chromedriver + 3986064
+2   chromedriver                        0x000000010447284c chromedriver + 190540
+3   chromedriver                        0x0000000104494200 chromedriver + 328192
+4   chromedriver                        0x0000000104490c48 chromedriver + 314440
+5   chromedriver                        0x000000010448dc30 chromedriver + 302128
+6   chromedriver                        0x00000001044bedb8 chromedriver + 503224
+7   chromedriver                        0x0000000104496864 chromedriver + 338020
+8   chromedriver                        0x000000010483d320 chromedriver + 4166432
+9   chromedriver                        0x0000000104852748 chromedriver + 4253512
+10  chromedriver                        0x0000000104856cbc chromedriver + 4271292
+11  chromedriver                        0x0000000104853004 chromedriver + 4255748
+12  chromedriver                        0x000000010483308c chromedriver + 4124812
+13  chromedriver                        0x000000010486abf8 chromedriver + 4353016
+14  chromedriver                        0x000000010486ad5c chromedriver + 4353372
+15  chromedriver                        0x000000010487e438 chromedriver + 4432952
+16  libsystem_pthread.dylib             0x00000001aeb1426c _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001aeb0f08c thread_start + 8
+</status>
+</test>
+<status status="FAIL" starttime="20220912 20:19:02.266" endtime="20220912 20:19:04.690"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
