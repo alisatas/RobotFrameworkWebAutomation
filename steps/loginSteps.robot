@@ -1,6 +1,6 @@
 *** Settings ***
-Resource  /Users/aliisatas/PycharmProjects/ECommerceRobotFramework/keywords/loginKeyword.robot
-Resource  /Users/aliisatas/PycharmProjects/ECommerceRobotFramework/variables/loginVariables.robot
+Resource  ../keywords/loginKeyword.robot
+Resource  ../variables/loginVariables.robot
 Library  DebugLibrary
 
 *** Keywords ***

@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  /Users/aliisatas/PycharmProjects/ECommerceRobotFramework/variables/loginVariables.robot
+Resource  ../variables/loginVariables.robot
 Library  SeleniumLibrary
 *** Keywords ***
 click accept cookies

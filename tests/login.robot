@@ -1,6 +1,6 @@
 *** Settings ***
-Resource  /Users/aliisatas/PycharmProjects/ECommerceRobotFramework/base/setup.robot
-Resource  /Users/aliisatas/PycharmProjects/ECommerceRobotFramework/steps/loginSteps.robot
+Resource  ../base/setup.robot
+Resource  ../steps/loginSteps.robot
 Test Setup  setup chrome
 Test Teardown  close session
 
