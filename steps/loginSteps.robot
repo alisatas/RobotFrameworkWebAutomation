@@ -1,6 +1,6 @@
 *** Settings ***
 Resource  ../keywords/loginKeyword.robot
-Resource  ../variables/loginVariables.robot
+Resource  ../elements/loginElements.robot
 Library  DebugLibrary
 
 *** Keywords ***

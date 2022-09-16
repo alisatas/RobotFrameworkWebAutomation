@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  ../variables/loginVariables.robot
+Resource  ../elements/loginElements.robot
 Library  SeleniumLibrary
 *** Keywords ***
 click accept cookies
