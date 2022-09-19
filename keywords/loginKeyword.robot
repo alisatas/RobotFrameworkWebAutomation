@@ -17,3 +17,14 @@ fill the email
 fill the password
     [Arguments]  ${element}  ${password}
     input password  ${element}  ${password}
+
+error message get text
+    [Arguments]
+    get text  ${text_errorMessage}
+    element should contain  ${text_errorMessage}  Er heeft zich een probleem voorgedaan.
+
+
+
+
+
+
