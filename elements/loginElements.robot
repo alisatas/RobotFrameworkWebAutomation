@@ -6,3 +6,4 @@ ${input_password}  //*[@id='ap_password']
 ${continue_button}  //*[@class='a-button a-button-span12 a-button-primary']
 ${submit_button}  signInSubmit
 ${account_name}  //*[@id='nav-link-accountList-nav-line-1']
+${text_errorMessage}  //*[contains(text(),'Er heeft zich een probleem voorgedaan.')]
