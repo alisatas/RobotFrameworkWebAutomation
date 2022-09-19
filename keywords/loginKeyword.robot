@@ -25,6 +25,3 @@ error message get text
 
 
 
-
-
-
