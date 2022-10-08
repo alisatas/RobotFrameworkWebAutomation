@@ -8,12 +8,12 @@ Test Teardown  close session
 *** Test Cases ***
 Succesfull login
     [Documentation]  Successfull login with valid email and password
-    [Tags]  Smoke
+    [Tags]  Smoke test for login test
     Valid Login
 
 Uncecesfull login
     [Documentation]  Insuccessfull login with invalid email and password
-    [Tags]  Smoke
+    [Tags]  Smoke test for invalid
     Invalid login with mail
 
 
