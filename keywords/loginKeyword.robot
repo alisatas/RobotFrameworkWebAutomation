@@ -1,6 +1,7 @@
 *** Settings ***
 Resource  ../variables/loginElements.robot
 Library  SeleniumLibrary
+
 *** Keywords ***
 click accept cookies
     [Arguments]  ${element}
