@@ -1,6 +1,6 @@
 *** Settings ***
-Resource  ../elements/loginElements.robot
-Resource  ..//elements/addProductToCartElements.robot
+Resource  ../variables/loginElements.robot
+Resource  ../variables/addProductToCartElements.robot
 Library  SeleniumLibrary
 *** Keywords ***
 write product name to search bar

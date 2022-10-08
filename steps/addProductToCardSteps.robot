@@ -1,7 +1,7 @@
 *** Settings ***
 Resource  ../keywords/loginKeyword.robot
-Resource  ../elements/loginElements.robot
-Resource  ../elements/addProductToCartElements.robot
+Resource  ../variables/loginElements.robot
+Resource  ../variables/addProductToCartElements.robot
 Resource  ../keywords/addProductToCartKeyword.robot
 
 Library  DebugLibrary
