@@ -11,8 +11,8 @@ Succesfull login
     [Tags]  Smoke test for login test
     Valid Login
 
-Uncecesfull login
-    [Documentation]  Insuccessfull login with invalid email and password
+Unsuccesfull login
+    [Documentation]  Unsuccessfull login with invalid email and password
     [Tags]  Smoke test for invalid
     Invalid login with mail
 
