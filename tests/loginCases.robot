@@ -15,6 +15,3 @@ Unsuccesfull login
     [Documentation]  Unsuccessfull login with invalid email and password
     [Tags]  Smoke test for invalid
     Invalid login with mail
-
-
-
