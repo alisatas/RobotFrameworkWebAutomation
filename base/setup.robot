@@ -20,6 +20,5 @@ setup firefox
     go to  ${base_url}
     maximize browser window
 
-
 close session
     close all browsers
